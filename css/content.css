@@ -1,0 +1,35 @@
+.content{
+    padding-top: 88px;
+    background: linear-gradient(to right, var(--color-dark) 50%, var(--color-level-1)50%);
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    padding: 80px 0;
+    min-height: 650px;
+    max-width: 1440px;
+}
+.banner-body{
+    position: absolute;
+    padding: 133px 40px 0 662px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 78px;
+    line-height: 1.2;
+    color: var(--color-light);
+    margin: 0;
+}
+.banner-title-grey{
+    color: var(--color-light-grey);
+}
+.banner-info{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 1.5;
+    color: var(--color-light);
+    padding-top: 32px;
+}
+.banner-image img{
+    object-fit: cover;
+}
