@@ -1,0 +1,52 @@
+.skillset{
+    max-width: 1440px;
+    padding: 120px 72px;
+    background-color: var(--color-dark);
+}
+
+.skillset-wrapper {
+    display: flex;
+    gap: 24px;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-wrap: wrap;
+  }
+  
+  .skillset-left {
+    flex: 1;
+    max-width: 416px;
+  }
+  
+  .skillset-card {
+    flex: 1;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 24px;
+  }
+  .skillset-title{
+    font-weight: 700;
+    font-size: 55px;
+    color: var(--color-light);
+    margin: 0;
+  }
+  .skillset-info{
+    font-family: 400;
+    font-size: 18px;
+    line-height: 27px;
+    padding-top: 65px;
+  }
+  .skillset-card-item-title{
+    font-weight: 700;
+    font-size: 24px;
+    color: var(--color-light);
+    line-height: 36px;
+  }
+  .skillset-card-item-info{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    padding-bottom: 48px;
+  }

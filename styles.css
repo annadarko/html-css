@@ -2,6 +2,7 @@
 @import url('./css/content.css');
 @import url('./companies.css');
 @import url('./philosophy.css');
+@import url('./skillset.css');
 @font-face {
     font-family: 'Sen';
     src: url('./fonts/Sen-Bold.woff2') format('woff2');
@@ -98,6 +99,21 @@ h1, h2, h3, h4, h5, h6{
     .philosophy-card-image{
         max-width: 50%;
         height: auto;
+    }
+
+    .skillset{
+        padding-top: 80px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .skillset-wrapper {
+        flex-direction: column;
+      }
+    .skillset-left{
+        max-width: 1200px;
+    }
+    .skillset-card{
+        padding-top: 48px;
     }
 }
 @media(max-width: 800px){
@@ -208,5 +224,21 @@ h1, h2, h3, h4, h5, h6{
     .philosophy-card-image{
        width: 100% !important;
        max-width: none;
+    }
+
+    .skillset{
+        padding-top: 64px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .skillset-card {
+        grid-template-columns: 1fr;
+      }
+    .skillset-title{
+        font-size: 32px;
+        padding-bottom: 16px;
+    }
+    .skillset-info{
+        padding: 0;
     }
 }
