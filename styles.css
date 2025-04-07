@@ -7,6 +7,7 @@
 @import url('./css/projects.css');
 @import url('./css/instagram.css');
 @import url('./css/dribble.css');
+@import url('./css/reviews.css');
 @font-face {
     font-family: 'Sen';
     src: url('./fonts/Sen-Bold.woff2') format('woff2');
@@ -165,6 +166,19 @@ h1, h2, h3, h4, h5, h6{
 
     .dribble{
         padding: 80px 40px;
+    }
+
+    .reviews{
+        padding: 80px 40px;
+    }
+    .reviews-wrapper{
+        gap: 23px
+    }
+    .reviews-right{
+        gap: 64px;
+    }
+    .reviews-info{
+        padding: 32px;
     }
 }
 @media(max-width: 800px){
@@ -325,5 +339,16 @@ h1, h2, h3, h4, h5, h6{
     }
     .dribbble-image{
         padding-top: 64px;
+    }
+
+    .reviews{
+        padding: 48px 20px;
+    }
+    .reviews-wrapper{
+        flex-direction: column;
+        gap: 64px;
+    }
+    .reviews-right{
+        gap: 48px;
     }
 }
