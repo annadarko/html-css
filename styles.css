@@ -1,8 +1,9 @@
 @import url('./css/header.css');
 @import url('./css/content.css');
-@import url('./companies.css');
-@import url('./philosophy.css');
-@import url('./skillset.css');
+@import url('./css/companies.css');
+@import url('./css/philosophy.css');
+@import url('./css/skillset.css');
+@import url('./css/groups.css');
 @font-face {
     font-family: 'Sen';
     src: url('./fonts/Sen-Bold.woff2') format('woff2');
@@ -115,6 +116,23 @@ h1, h2, h3, h4, h5, h6{
     .skillset-card{
         padding-top: 48px;
     }
+
+    .groups {
+        overflow-x: hidden;
+      }
+    
+      .groups-types {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        width: 100%;
+        padding: 0;
+      }
+    
+      .groups-types-list {
+        width: 100%;
+        max-width: none;
+        margin: 0;
+      }
 }
 @media(max-width: 800px){
     .header:before{
