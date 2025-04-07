@@ -1,0 +1,46 @@
+.instagram{
+    padding-top: 152px;
+}
+.instagram-card.container{
+    padding: 0;
+}
+.instagram-card{
+    display: flex;
+    justify-content: space-between;
+    gap: 72px;
+}
+.instagram-list{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    background-color: var(--color-violet-accent);
+}
+.instagram-card-body{
+    padding-top: 120px;
+    padding-left: 72px;
+    max-width: 576px;
+}
+.instagram-card-tytle{
+    font-weight: 700;
+    font-size: 55px;
+    color: var(--color-level-1);
+    margin: 0;
+    padding-bottom: 24px;
+    line-height: 60px;
+}
+.instagram-card-description{
+    font-weight: 400;
+    font-size: 18px;
+    color: var(--color-dark-grey);
+    line-height: 27px;
+    padding-bottom: 124px;
+}
+.instagram-card-description p{
+    margin: 0;
+}
+.instagram-card-link{
+    font-weight: 400;
+    font-size: 16px;
+    color: var(--color-level-1);
+    line-height: 24px;
+}

@@ -5,6 +5,7 @@
 @import url('./css/skillset.css');
 @import url('./css/groups.css');
 @import url('./css/projects.css');
+@import url('./css/instagram.css');
 @font-face {
     font-family: 'Sen';
     src: url('./fonts/Sen-Bold.woff2') format('woff2');
@@ -146,6 +147,20 @@ h1, h2, h3, h4, h5, h6{
       .projects-button{
         display: none;
       }
+
+    .instagram-card{
+        gap: 40px;
+    }
+    .instagram-card-body{
+        padding-top: 80px;
+    }
+    .instagram-card-description{
+        padding-bottom: 200px;
+    }
+    .instagram-card-image{
+        max-width: 50%;
+        height: auto;
+    }
 }
 @media(max-width: 800px){
     .header:before{
@@ -277,4 +292,26 @@ h1, h2, h3, h4, h5, h6{
         padding-left: 20px;
         padding-right: 20px;
       }
+    
+      .instagram-card{
+        flex-direction: column;
+        justify-content: center;
+        gap: 48px;
+    }
+    .instagram-card-body{
+        padding-top: 48px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .instagram-card-tytle{
+        font-size: 32px;
+    }
+    .instagram-card-description{
+        padding-top: 24px;
+        padding-bottom: 90px;
+    }
+    .instagram-card-image{
+       width: 100% !important;
+       max-width: none;
+    }
 }
