@@ -1,13 +1,15 @@
 .groups{
     background-color: var(--color-dark);
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 .groups-types{
     width: max-content;
     margin-inline: auto;
     list-style: none;
     margin: 0;
-    padding: 51px;
+    padding-left: 51px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     display: grid;
     grid-template-columns: repeat(6, 340px);
     gap: 0;
