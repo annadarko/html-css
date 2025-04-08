@@ -46,6 +46,7 @@
     background-color: var(--color-level-1);
     border: 1px solid var(--color-level-1);
     box-sizing: border-box;
+    color: var(--color-light);
   }
   .started-form.input{
     height: 100px;
@@ -66,4 +67,7 @@
     transition: 0.3s ease;
     width: 100%;
     box-sizing: border-box;
+}
+.button-started:hover{
+    transform: scale(1.02);
 }
