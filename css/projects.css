@@ -1,5 +1,5 @@
 .projects{
-    max-width: 1440px;
+    max-width: var(--container-width);
     background-color: var(--color-dark);
     padding: 120px 72px 0 72px;
   }

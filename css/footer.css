@@ -1,6 +1,6 @@
 .footer{
     background-color: var(--color-level-1);
-    max-width: 1440px;
+    max-width: var(--container-width);
 }
 .footer-wrapper{
     padding-top: 80px;
