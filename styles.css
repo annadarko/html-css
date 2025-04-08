@@ -8,6 +8,7 @@
 @import url('./css/instagram.css');
 @import url('./css/dribble.css');
 @import url('./css/reviews.css');
+@import url('./css/photography.css');
 @font-face {
     font-family: 'Sen';
     src: url('./fonts/Sen-Bold.woff2') format('woff2');
@@ -180,6 +181,16 @@ h1, h2, h3, h4, h5, h6{
     .reviews-info{
         padding: 32px;
     }
+
+    .photography{
+        padding: 80px 40px;
+    }
+    .photography-header{
+        max-width: 689px;
+    }
+    .photography-card{
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 @media(max-width: 800px){
     .header:before{
@@ -351,4 +362,18 @@ h1, h2, h3, h4, h5, h6{
     .reviews-right{
         gap: 48px;
     }
+
+    .photography{
+        padding: 48px 20px;
+    }
+    .photography-button {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
+      }
+    
+      .button-photography {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+      }
 }

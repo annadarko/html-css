@@ -1,0 +1,63 @@
+.photography{
+    max-width: 1440px;
+    position: relative;
+    padding: 120px 72px;
+    margin-inline: auto;
+}
+.photography-header{
+    max-width: 588px;
+    padding-bottom: 64px;
+}
+.photography-title{
+    font-weight: 700;
+    font-size: 55px;
+    color: var(--color-light);
+    line-height: 60px;
+    margin: 0;
+    padding-bottom: 24px;
+}
+.photography-description{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 27px;
+    margin: 0;
+}
+.photography-button{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+    max-width: 487px;
+    padding-bottom: 40px;
+}
+.button-photography{
+    display: inline-block;
+    padding: 12px 16px;
+    border: 1px solid var(--color-purple);
+    background: transparent;
+    color: var(--color-light);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 27px;
+    transition: 0.3s ease;
+}
+.button-photography.active{
+    background-color: var(--color-purple);
+}
+.photography-card{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 24px;
+}
+.photography-card img{
+    width: 100%;
+    height: auto;
+    display: block;
+}
