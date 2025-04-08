@@ -38,11 +38,6 @@
     margin: 0;
   }
   .projects-title{
-    font-weight: 700;
-    font-size: 55px;
-    color: var(--color-light);
-    line-height: 65px;
-    margin: 0;
     padding-top: 8px;
   }
   .projects-card{
@@ -50,19 +45,6 @@
   }
   .projects-info{
     padding: 40px 32px;
-  }
-  .projects-info-title{
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    color: var(--color-light);
-    margin: 0;
-  }
-  .projects-info-subtitle{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    margin: 0;
   }
   .projects-button{
     margin-top: 91px;

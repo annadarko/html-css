@@ -20,19 +20,6 @@
     justify-content: flex-start;
     gap: 40px;
 }
-.started-title{
-    font-weight: 700;
-    font-size: 55px;
-    color: var(--color-light);
-    line-height: 60px;
-    margin: 0;
-}
-.started-description{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    margin: 0;
-}
 .started-form-title{
     font-weight: 400;
     font-size: 16px;

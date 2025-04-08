@@ -25,50 +25,21 @@
     display: block;
 }
 .reviews-title{
-    font-weight: 700;
-    font-size: 55px;
-    color: var(--color-light);
-    line-height: 60px;
-    margin: 0;
     padding-bottom: 24px;
 }
 .reviews-description{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    color: var(--color-light-grey);
-    margin: 0;
     padding-bottom: 40px;
-}
-.reviews-link{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
 }
 .reviews-info{
     border: 1px solid var(--color-dark-grey);
     padding: 64px;
 }
 .reviews-card-title{
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    color: var(--color-light);
     padding-bottom: 64px;
-    margin: 0;
 }
 .reviews-card-name{
     font-weight: 700;
-    font-size: 18px;
-    line-height: 27px;
-    margin: 0;
     padding-bottom: 4px;
-}
-.reviews-card-company{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 27px;
-    margin: 0;
 }
 @media(max-width: 1260px){
     .reviews{

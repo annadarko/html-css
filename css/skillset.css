@@ -26,23 +26,8 @@
     grid-template-columns: 1fr 1fr;
     gap: 24px;
   }
-  .skillset-title{
-    font-weight: 700;
-    font-size: 55px;
-    color: var(--color-light);
-    margin: 0;
-  }
   .skillset-info{
-    font-family: 400;
-    font-size: 18px;
-    line-height: 27px;
     padding-top: 65px;
-  }
-  .skillset-card-item-title{
-    font-weight: 700;
-    font-size: 24px;
-    color: var(--color-light);
-    line-height: 36px;
   }
   .skillset-card-item-info{
     font-weight: 400;

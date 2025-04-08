@@ -18,22 +18,12 @@
     max-width: 576px;
 }
 .philosophy-card-tytle{
-    font-weight: 700;
-    font-size: 55px;
     color: var(--color-dark);
-    line-height: 70px;
-    margin: 0;
 }
 .philosophy-card-description{
-    font-weight: 400;
-    font-size: 18px;
     color: var(--color-dark-grey);
-    line-height: 27px;
     padding-top: 24px;
     padding-bottom: 124px;
-}
-.philosophy-card-description p{
-    margin: 0;
 }
 .philosophy-card-link{
     font-weight: 400;

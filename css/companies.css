@@ -14,11 +14,6 @@
     line-height: 24px;
 }
 .companies-title{
-    font-weight: 700;
-    font-size: 55px;
-    color: var(--color-light);
-    line-height: 60px;
-    margin: 0;
     padding-top: 8px;
     max-width: 690px;
 }
@@ -34,18 +29,6 @@
 .number{
     font-weight: 400;
     font-size: 117px;
-}
-.companies-types-title{
-    font-weight: 700;
-    font-size: 24px;
-    line-height: 36px;
-    color: var(--color-light);
-    margin: 0;
-}
-.description{
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
 }
 .companies-types-title-color-green{
     color: var(--color-green-accent);

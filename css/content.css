@@ -24,10 +24,6 @@
     color: var(--color-light-grey);
 }
 .banner-info{
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 1.5;
-    color: var(--color-light);
     padding-top: 32px;
 }
 .banner-image img{
