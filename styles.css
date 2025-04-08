@@ -10,6 +10,7 @@
 @import url('./css/reviews.css');
 @import url('./css/photography.css');
 @import url('./css/started.css');
+@import url('./css/footer.css');
 @font-face {
     font-family: 'Sen';
     src: url('./fonts/Sen-Bold.woff2') format('woff2');
@@ -195,6 +196,15 @@ h1, h2, h3, h4, h5, h6{
 
     .started{
         padding: 80px 40px;
+    }
+
+    .footer-wrapper{
+        padding: 80px 40px;
+        gap: 224px;
+    }
+    .footer-copy{
+        padding-left: 40px;
+        padding-bottom: 56px;
     }
 }
 @media(max-width: 800px){
@@ -397,5 +407,21 @@ h1, h2, h3, h4, h5, h6{
     }
     .started-button,.button-started{
         width: 100%;
+    }
+
+    .footer-wrapper{
+        padding-top: 48px;
+        padding-left: 20px;
+        gap: 48px;
+        flex-direction: column;
+    }
+    .footer-title{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-copy{
+        padding-left: 20px;
+        padding-top: 250px;
+        padding-bottom: 48px;
     }
 }
