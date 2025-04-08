@@ -9,6 +9,7 @@
 @import url('./css/dribble.css');
 @import url('./css/reviews.css');
 @import url('./css/photography.css');
+@import url('./css/started.css');
 @font-face {
     font-family: 'Sen';
     src: url('./fonts/Sen-Bold.woff2') format('woff2');
@@ -191,6 +192,10 @@ h1, h2, h3, h4, h5, h6{
     .photography-card{
         grid-template-columns: repeat(2, 1fr);
     }
+
+    .started{
+        padding: 80px 40px;
+    }
 }
 @media(max-width: 800px){
     .header:before{
@@ -242,6 +247,7 @@ h1, h2, h3, h4, h5, h6{
     .banner {
         flex-direction: column;
         padding: 0;
+        background: var(--color-dark);
     }
 
     .banner-body {
@@ -309,7 +315,7 @@ h1, h2, h3, h4, h5, h6{
     }
     .skillset-card {
         grid-template-columns: 1fr;
-      }
+    }
     .skillset-title{
         font-size: 32px;
         padding-bottom: 16px;
@@ -321,7 +327,7 @@ h1, h2, h3, h4, h5, h6{
     .projects{
         padding-left: 20px;
         padding-right: 20px;
-      }
+    }
     
       .instagram-card{
         flex-direction: column;
@@ -369,11 +375,27 @@ h1, h2, h3, h4, h5, h6{
     .photography-button {
         grid-template-columns: repeat(2, 1fr);
         max-width: 100%;
-      }
+    }
     
-      .button-photography {
+    .button-photography {
         width: 100%;
         text-align: center;
         box-sizing: border-box;
-      }
+    }
+
+    .started{
+        padding: 48px 20px;
+    }
+    .started-wrapper{
+        flex-direction: column;
+    }
+    .started-left,.started-right{
+        width: 100%;
+    }
+    .started-form{
+        width: 100%;
+    }
+    .started-button,.button-started{
+        width: 100%;
+    }
 }
