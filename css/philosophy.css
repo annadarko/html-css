@@ -41,3 +41,42 @@
     color: var(--color-dark);
     line-height: 24px;
 }
+@media(max-width: 1260px){
+    .philosophy-card{
+        gap: 40px;
+    }
+    .philosophy-card-body{
+        padding-top: 80px;
+    }
+    .philosophy-card-description{
+        padding-bottom: 200px;
+    }
+    .philosophy-card-image{
+        max-width: 50%;
+        height: auto;
+    }
+}
+@media(max-width: 800px){
+
+    .philosophy-card{
+        flex-direction: column;
+        justify-content: center;
+        gap: 48px;
+    }
+    .philosophy-card-body{
+        padding-top: 48px;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .philosophy-card-tytle{
+        font-size: 32px;
+    }
+    .philosophy-card-description{
+        padding-top: 24px;
+        padding-bottom: 90px;
+    }
+    .philosophy-card-image{
+       width: 100% !important;
+       max-width: none;
+    }
+}

@@ -56,3 +56,25 @@
 .companies-types-title-color-pink{
     color: var( --color-pink-accent);
 }
+@media(max-width: 1260px){
+    .companies{
+        background: none;
+        padding-top: 80px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+}
+@media(max-width: 800px){
+    .companies{
+        padding-top: 24px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .companies-info{
+        grid-template-columns: repeat(1, 1fr);
+        gap: 60px;
+    }
+    .companies-types-title{
+        margin: 0;
+    }
+}

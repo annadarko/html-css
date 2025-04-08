@@ -53,3 +53,31 @@
     font-size: 16px;
     line-height: 24px;
 }
+@media(max-width: 1260px){
+    .footer-wrapper{
+        padding: 80px 40px;
+        gap: 224px;
+    }
+    .footer-copy{
+        padding-left: 40px;
+        padding-bottom: 56px;
+    }
+}
+@media(max-width: 800px){
+
+    .footer-wrapper{
+        padding-top: 48px;
+        padding-left: 20px;
+        gap: 48px;
+        flex-direction: column;
+    }
+    .footer-title{
+        display: flex;
+        flex-direction: column;
+    }
+    .footer-copy{
+        padding-left: 20px;
+        padding-top: 250px;
+        padding-bottom: 48px;
+    }
+}

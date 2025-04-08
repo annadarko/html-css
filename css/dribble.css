@@ -35,3 +35,16 @@
     display: block;
     max-width: 100%;
 }
+@media(max-width: 1260px){
+    .dribble{
+        padding: 80px 40px;
+    }
+}
+@media(max-width: 800px){
+    .dribble{
+        padding: 64px 20px;
+    }
+    .dribbble-image{
+        padding-top: 64px;
+    }
+}

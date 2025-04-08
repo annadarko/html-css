@@ -84,3 +84,22 @@
   .button-projects:hover{
     transform: scale(1.02);
 }
+@media(max-width: 1260px){
+  .projects{
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .projects-wrapper{
+    flex-direction: column;
+    gap: 48px;
+  }
+  .projects-button{
+    display: none;
+  }
+}
+@media(max-width: 800px){
+  .projects{
+      padding-left: 20px;
+      padding-right: 20px;
+  }
+}

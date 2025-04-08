@@ -61,3 +61,28 @@
     height: auto;
     display: block;
 }
+@media(max-width: 1260px){
+    .photography{
+        padding: 80px 40px;
+    }
+    .photography-header{
+        max-width: 689px;
+    }
+    .photography-card{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+@media(max-width: 800px){
+    .photography{
+        padding: 48px 20px;
+    }
+    .photography-button {
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
+    }
+    .button-photography {
+        width: 100%;
+        text-align: center;
+        box-sizing: border-box;
+    }
+}

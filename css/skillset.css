@@ -50,3 +50,36 @@
     line-height: 24px;
     padding-bottom: 48px;
   }
+  @media(max-width: 1260px){
+    .skillset{
+        padding-top: 80px;
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    .skillset-wrapper {
+        flex-direction: column;
+      }
+    .skillset-left{
+        max-width: 1200px;
+    }
+    .skillset-card{
+        padding-top: 48px;
+    }
+  }
+  @media(max-width: 800px){
+    .skillset{
+        padding-top: 64px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .skillset-card {
+        grid-template-columns: 1fr;
+    }
+    .skillset-title{
+        font-size: 32px;
+        padding-bottom: 16px;
+    }
+    .skillset-info{
+        padding: 0;
+    }
+  }

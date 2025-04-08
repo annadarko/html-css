@@ -71,3 +71,25 @@
 .button-started:hover{
     transform: scale(1.02);
 }
+@media(max-width: 1260px){
+    .started{
+        padding: 80px 40px;
+    }
+}
+@media(max-width: 800px){
+    .started{
+        padding: 48px 20px;
+    }
+    .started-wrapper{
+        flex-direction: column;
+    }
+    .started-left,.started-right{
+        width: 100%;
+    }
+    .started-form{
+        width: 100%;
+    }
+    .started-button,.button-started{
+        width: 100%;
+    }
+}

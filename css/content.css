@@ -33,3 +33,49 @@
 .banner-image img{
     object-fit: cover;
 }
+@media(max-width: 1260px){
+    .content{
+        background: var(--color-dark);
+    }
+    .banner-title{
+        font-size: 56px;
+    }
+    .banner-image {
+        width: 700px;
+        height: 750px;
+    }
+    .banner-image img {
+        width: 100%;
+        height: 100%;
+    }
+}
+@media(max-width: 800px){
+    .banner {
+        flex-direction: column;
+        padding: 0;
+        background: var(--color-dark);
+    }
+
+    .banner-body {
+        position: static;
+        padding: 20px;
+        text-align: left;
+    }
+
+    .banner-image {
+        width: 100%;
+        height: 400px;
+    }
+    .banner-image img {
+        width: 100%;
+        height: 400px;
+
+    }
+    .banner-title{
+        font-size: 32px;
+    }
+    .banner-info{
+        font-size: 18px;
+        padding-top: 16px;
+    }
+}

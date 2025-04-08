@@ -70,3 +70,29 @@
     line-height: 27px;
     margin: 0;
 }
+@media(max-width: 1260px){
+    .reviews{
+        padding: 80px 40px;
+    }
+    .reviews-wrapper{
+        gap: 23px
+    }
+    .reviews-right{
+        gap: 64px;
+    }
+    .reviews-info{
+        padding: 32px;
+    }
+}
+@media(max-width: 800px){
+    .reviews{
+        padding: 48px 20px;
+    }
+    .reviews-wrapper{
+        flex-direction: column;
+        gap: 64px;
+    }
+    .reviews-right{
+        gap: 48px;
+    }
+}
