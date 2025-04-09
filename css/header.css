@@ -1,0 +1,116 @@
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 50;
+    padding-inline: 72px;
+    box-sizing: border-box;
+}
+.header:before{
+    content:'';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: var(--color-dark);
+    z-index: 2;
+}
+.header-body{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    height: 88px;
+    align-items: center;
+    column-gap: 24px;
+}
+.header-logo{
+    position: relative;
+    z-index: 3;
+    flex-shrink: 0;
+}
+.header-menu-list{
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    column-gap: 24px;
+}
+.header-menu-list li{
+    list-style: none;
+}
+.header-menu-link{
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    height: 88px;
+    padding: 0 20px;
+    text-align: center;
+    width: auto;
+    font-size: 16px;
+    font-weight: 400;
+    text-decoration: none;
+}
+.header-menu-link.is-current{
+    background-color: var(--color-purple);
+}
+.header-burger{
+    display: none;
+}
+@media(max-width: 1260px){
+    .header{
+        padding-inline: 40px;
+    }
+    .header:before{
+        background-color: var(--color-dark);
+    }
+}
+@media(max-width: 800px){
+    .header:before{
+        background-color: var(--color-dark);
+    }
+    .header{
+        padding-inline: 24px;
+    }
+    .header-body{
+        height: 72px;
+    }
+    .header-burger{
+        display: block;
+        position: relative;
+        width: 24px;
+        height: 24px;
+        z-index: 3;
+    }
+    .header-burger:before{
+        content: '';
+        background-color: var(--color-light-grey);
+        position: absolute;
+        width: 18px;
+        height: 3px;
+        left: 0;
+        top: 0;
+    }
+    .header-burger:after{
+        content: '';
+        background-color: var(--color-light-grey);
+        position: absolute;
+        width: 13px;
+        height: 3px;
+        left: 5px;
+        bottom: 0;
+        top: 9px
+    }
+    .header-burger span{
+        position: absolute;
+        background-color: var(--color-light-grey);
+        left: 0;
+        height: 3px;
+        top: 9px;
+    }
+    .header-menu{
+        display: none;
+    }
+}
